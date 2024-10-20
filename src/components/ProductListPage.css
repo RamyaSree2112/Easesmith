@@ -1,0 +1,19 @@
+.product-list-container {
+    display: flex;
+  }
+  
+  .image-side {
+    flex: 1;
+    margin-right: 20px; /* Adjust spacing */
+  }
+  
+  .product-side {
+    flex: 2;
+  }
+  
+  .product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align products */
+  }
+  

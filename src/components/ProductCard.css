@@ -1,0 +1,30 @@
+/* src/components/ProductCard.css */
+/* ProductCard.css */
+.product-card {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.product-card img {
+  width: 200px;  /* Adjust this size based on your design */
+  height: 200px; /* Keep it consistent */
+  object-fit: cover; /* Ensure the image doesn't distort */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+.product-card button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}

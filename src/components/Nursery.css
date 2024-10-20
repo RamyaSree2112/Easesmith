@@ -1,0 +1,45 @@
+/* Nursery.css */
+.nursery-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .nursery-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .nursery-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .nursery-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .nursery-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .nursery-card h3 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  
+  .nursery-card p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #555;
+  }
+  

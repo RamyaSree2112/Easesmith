@@ -1,0 +1,70 @@
+/* Global styles (mobile-first approach) */
+body {
+  font-size: 16px; /* Base font size */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid blue;
+}
+
+.product-list-container {
+  display: block; /* Stacks on smaller screens */
+}
+
+.product-row {
+  display: flex;
+  flex-direction: column; /* Stack products vertically on small screens */
+}
+
+.product-card {
+  margin-bottom: 20px;
+}
+
+.image-side img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query for tablets and small desktops */
+@media (min-width: 768px) {
+  .product-list-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .product-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .product-card {
+    width: 30%;
+  }
+
+  .image-side {
+    width: 40%;
+  }
+}
+
+/* Media query for large desktops */
+@media (min-width: 1200px) {
+  .product-card {
+    width: 25%;
+  }
+
+  .image-side {
+    width: 30%;
+  }
+}
